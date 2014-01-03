@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Chenhao's Blog]]></title>
+  <title><![CDATA[Chenhao's Blog2]]></title>
   <link href="http://mouse3150.github.io/atom.xml" rel="self"/>
   <link href="http://mouse3150.github.io/"/>
-  <updated>2014-01-03T15:57:55+08:00</updated>
+  <updated>2014-01-03T16:03:18+08:00</updated>
   <id>http://mouse3150.github.io/</id>
   <author>
     <name><![CDATA[Chenhao]]></name>
