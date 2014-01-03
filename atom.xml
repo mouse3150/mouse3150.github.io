@@ -4,7 +4,7 @@
   <title><![CDATA[Chenhao's Blog]]></title>
   <link href="http://mouse3150.github.io/atom.xml" rel="self"/>
   <link href="http://mouse3150.github.io/"/>
-  <updated>2014-01-03T16:29:22+08:00</updated>
+  <updated>2014-01-03T16:32:22+08:00</updated>
   <id>http://mouse3150.github.io/</id>
   <author>
     <name><![CDATA[Chenhao]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[About Me]]></title>
+    <link href="http://mouse3150.github.io/blog/2014/01/03/about-me/"/>
+    <updated>2014-01-03T16:31:29+08:00</updated>
+    <id>http://mouse3150.github.io/blog/2014/01/03/about-me</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
