@@ -45,15 +45,34 @@ description: 描述。
 例如：
 
 ```
-{"id": "12345678","kind": "Dog""name": "Lassie","furColor": "brown","ownerID": "98765432"}
+{
+	"id": "12345678",
+	"kind": "Dog" "name": "Lassie",
+	"furColor": "brown",
+	"ownerID": "98765432"
+}
+
 ```
 更好的方法：
 ```
-{"id": "12345678","kind": "Dog""name": "Lassie","furColor": "brown","ownerID": "98765432","ownerLink": "https://dogtracker.com/persons/98765432"}
+{
+	"id": "12345678",
+	"kind": "Dog" "name": "Lassie",
+	"furColor": "brown",
+	"ownerID": "98765432",
+	"ownerLink": "https://dogtracker.com/persons/98765432"
+}
+
 ```
 更简洁的表示：
 ```
-{"id": "12345678","kind": "Dog""name": "Lassie","furColor": "brown","owner": "https://dogtracker.com/persons/98765432"}
+{
+	"id": "12345678",
+	"kind": "Dog" "name": "Lassie",
+	"furColor": "brown",
+	"owner": "https://dogtracker.com/persons/98765432"
+}
+
 ```
 
 这样做的好处是客户端不需要自己重新构建URL去获取owner，更方便使用。Google Drive API 和 Github 均使用这种方式。但这样做也不是没有坏处，最容易想到的是，如果url改变了怎么办？production，staging，testing用的是不一样的domain哟。一个方法是：使用相对路径，而不是绝对路径。但这也不能解决全部问题。
