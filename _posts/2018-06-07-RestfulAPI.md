@@ -1,6 +1,15 @@
+---
+layout: post
+title: 设计一套良好 REST API
+tags:
+- Java
+- ArrayList
+categories: java
+description: 描述。
+---
+
+
 # 设计一套良好 REST API
-
-
 
 硅谷的apigee公司给出一份对REST API的设计指导原则，可以说这家公司在api开发，管理的成绩有目共睹。其提供的指导原则，可以说结合了其自身实际开发经验，诸多大型平台的实际运营经验和标准http规范。非常值得一读。
 首先，你需要对REST API有一个基本的概念认知，然后再深入阅读：
